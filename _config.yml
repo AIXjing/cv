@@ -5,10 +5,12 @@ title: My Resume
 url: 'http://webjeda.com'
 baseurl: '/cv' #change it according to your repository name
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: blue # blue turquoise green berry orange ceramic
+# Switch btween pillar-1 and pillar-6 to use different colors
+# more details see here https://github.com/xriley/pillar-theme
+theme_number: pillar-1
 
 # Tracker
-analytics: UA-83979019-1
+# analytics: UA-83979019-1
 
 # Sass/SCSS
 sass:
