@@ -13,20 +13,20 @@ linkedin:
   name: linkedin.com/in/fuyangliudk
   url: https://www.linkedin.com/in/fuyangliudk/
 github:
-  name: gitbut.com/liufuyang
+  name: github.com/liufuyang
   url: http://github.com/liufuyang
 website:
   name: liufuyang.github.io
   url: http://liufuyang.github.io
 
 career-summary: |
-  Solid foundation of Mathematics, Physics and Programming.
-  Years of experience with process and product development.
-  Self-driven and result-oriented.
-  I am good at finding the balance between the velocity, the complexity and the quality
-  of a project. I have been interested in machine learning for years and learn many course
-  online. Recently I fall in love with the Rust programming language 
-  and also started learning about distributed systems like TiDB/TiKV.
+  Fuyang is a software engineer with solid mathematics and physics background.
+  He is self-driven, result-oriented. And when doing projects he is good at finding the balance between
+  a project's velocity, complexity and quality.
+  He has been interested in building machine learning systems for years. Initially learnt many courses
+  online about it and nowadays he is building real ones running in production. 
+  Recently he fell in love with the Rust programming language 
+  and also started learning about distributed NewSQL systems like TiDB/TiKV.
 
     - 4+ years in software development
     - 3+ years in finite element simulation
@@ -39,12 +39,12 @@ experiences:
         location: Tradeshift
         subtitle: 2015-12 - Present
         summary: | 
-          I joined Tradeshift initailly working on
-          the component for onboarding companies onto the platform.
+          I joined Tradeshift initially working on
+          the component for on-boarding companies onto the platform.
           Later on I moved to the Machine Learning team and have been working
           on the components for enhancing automation processes on the platform.
           My work is mainly involved with:
-            - Building and mainttaining machine learning services (invoice entity classification, business entity matching, product-classification, smart-suggestion)
+            - Building and maintaining machine learning services (invoice entity classification, business entity matching, product-classification, smart-suggestion)
             - Building Data pipeline on AWS for machine learning components across multiple environments
             - Building micro-services (REST APIs) to allow ML components interacting with other system components
             - Fixing bugs and implement feature requests among different components. Touch on some front-end UI code/Javascript from time to time
@@ -81,7 +81,7 @@ experiences:
             subtags:
               - name: Matlab
               - name: COMSOL
-              - name: Solidworks
+              - name: SolidWorks
 
       - title: Software Engineer
         location: "Perficient. Inc (NASDAQ: PRFT)"
