@@ -46,7 +46,7 @@
                                         <i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>
                                         {{ data.email }}</a>
                                 </li>
-                                <li><a href="#">
+                                <li class="mb-2"><a href="#">
                                         <i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>
                                         {{ data.phone }}</a></li>
                                 <li class="mb-2"><a href="#">
@@ -156,11 +156,13 @@
                                 </div>
                                 {% endfor %}
                                 <!--//resume-timeline-->
-
                             </div>
                         </section>
                         {% endfor %}
                         <!--//experience-section-->
+
+                        {% include courses.html %}
+
                     </div>
                     <div class="col-lg-3">
                         <section class="resume-section skills-section mb-5">
