@@ -22,7 +22,7 @@ website:
 career-summary: |
   Solid foundation of Mathematics, Physics and Programming.
   Years of experience with process and product development.
-  Self-driven and result-oriented. 
+  Self-driven and result-oriented.
   I am good at finding the balance between the velocity, the complexity and the quality
   of a project. I have been interested in machine learning for years and learn many course
   online. Recently I fall in love with the Rust programming language 
@@ -40,9 +40,9 @@ experiences:
         subtitle: 2015-12 - Present
         summary: | 
           I joined Tradeshift initailly working on
-          the component for onboarding companies onto the platform. Then
-          later on moved to the Machine Learning team and has been working
-          on componentes to enhance many automation process on the platform.
+          the component for onboarding companies onto the platform.
+          Later on I moved to the Machine Learning team and have been working
+          on the components for enhancing automation processes on the platform.
           My work is mainly involved with:
             - Building and mainttaining machine learning services (invoice entity classification, business entity matching, product-classification, smart-suggestion)
             - Building Data pipeline on AWS for machine learning components across multiple environments
@@ -53,8 +53,8 @@ experiences:
             summary: |
                 - Shipped the first several services onto our Kubernetes environment
                   and then became a mentor to pass on the know-hows to others
-                - Developed the first deep learning model and deployed onto 
-                  production environment
+                - Developed and deployed the first deep neural net model at Tradeshift for 
+                  the product-classification service
         tags:
           - title: 'Technologies used:'
             subtags:
@@ -73,9 +73,9 @@ experiences:
         location: Dinex Group (a global manufacturer of emission control products)
         subtitle: 2012-12 - 2015-11
         summary: | 
-          Building FEM simulation models and performing acoustic and CFD analysis 
+          Developed FEM simulation models and performed acoustic and CFD analysis 
           on heavy duty diesel engine exhaustion system. 
-          Also helped with prototype testing results data analysis.
+          Also helped with data analysis on the results of prototype testing.
         tags:
           - title: 'Technologies used:'
             subtags:
@@ -88,7 +88,7 @@ experiences:
         subtitle: 2012-12 - 2015-11
         summary: | 
           Business solution development with IBM Websphere Portal Server, 
-          mainly in Java and touched on a few projects with C#
+          mainly in Java and touched on a few projects with C#.
 
   # - section: Education
   #   contents:
