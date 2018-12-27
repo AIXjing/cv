@@ -64,11 +64,12 @@ experiences:
               - name: Rust
               - name: Kubernetes
               - name: AWS
+              - name: S3/DynamoDB
               - name: Keras/Tensorflow
               - name: LogisticRegression
               - name: CNN
               - name: word2vec/GloVe
-              - name: Vue.js
+              - name: Frontend/Vue.js
 
       - title: Simulation Engineer
         location: Dinex Group (a global manufacturer of emission control products)
@@ -157,9 +158,12 @@ skills:
         width: 85%
       - name: Deep Learning (Keras/TF/Pytorch)
         width: 70%
+      - name: Big data (Spark/Scala)
+        width: 50%
 
 other-skills:
   - name: DevOps
+  - name: CICD
   - name: Git
   - name: Shell
   - name: Jenkins
