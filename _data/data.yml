@@ -36,9 +36,18 @@ career-summary: |
 experiences:
   - section: Work Experience
     contents:
+      - title: Software Engineer
+        location: Spotify
+        subtitle: 2019-05 - Present
+        summary: | 
+          Developing backend systems used for feeding promotions of new albums or podcast shows to Spotify users.
+          Helping with building ML models that can target promotions to a certain group of users, so to increase the promotion click through rate.
+          We do a lot of A/B testing to find the best approach to match content creators to music and podcast lovers,
+          at the same time we make sure user happiness is not tanked because of receiving irrelevant promotions.
+          
       - title: Senior Software Engineer - Machine Learning
         location: Tradeshift
-        subtitle: 2015-12 - Present
+        subtitle: 2015-12 - 2019-04
         summary: | 
           I joined Tradeshift initially working on
           the component for on-boarding companies onto the platform.
