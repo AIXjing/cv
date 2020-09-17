@@ -40,10 +40,10 @@ experiences:
         location: Spotify
         subtitle: 2019-05 - Present, Stockholm Sweden
         summary: | 
-          Develope backend systems used for configuring and feeding promotions of new albums or podcast shows to Spotify users.
-          Deploy ML models that can target promotions to a certain group of users, so to increase the promotion click through rate.
-          Develope and migrate dataflow pipelines on Google Cloud Platform. Often dealing with Google Bigtables.
-          Support team's A/B tests for finding the best approach to match content creators to music and podcast lovers,
+          - Develope backend systems used for configuring and feeding promotions of new albums or podcast shows to Spotify users.
+          - Deploy ML models that can target promotions to a certain group of users, so to increase the promotion click through rate.
+          - Develope and migrate dataflow pipelines on Google Cloud Platform. Often dealing with Google Bigtables.
+          - Support team's A/B tests for finding the best approach to match content creators to music and podcast lovers,
           and making sure user experience is not tanked because of receiving irrelevant promotions.
           
       - title: Senior Software Engineer
