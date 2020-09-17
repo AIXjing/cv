@@ -24,16 +24,14 @@ career-summary: |
   Fuyang is a software engineer with solid mathematics and physics background.
   He is self-driven, result-oriented, and enjoys building stuff. He is good at finding the balance between
   a project's velocity, complexity and quality.
-  He has been interested in building machine learning systems for years. Initially learnt many courses
-  online about it and nowadays he is building real ones running in production. He wishes to see those new
+  He wishes to see those new
   technology being applied in a variety of industries. He would be happy if he can
   use his time and energy in services or products that will make the world a better place.
-  Recently he fell in love with the Rust programming language 
+  Since 2018 he fell in love with the Rust programming language 
   and also started learning about distributed NewSQL systems like TiDB/TiKV.
 
-    - 5+ years in software development in music app industry and eecommerce industry.
+    - 5+ years in software development in music app industry and ecommerce industry.
     - 3+ years in finite element simulation in automobile industry
-    - 2+ years in building machine learning system
 
 experiences:
   - section: Work Experience
