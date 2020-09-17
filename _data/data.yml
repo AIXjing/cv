@@ -45,6 +45,13 @@ experiences:
           - Develope and migrate dataflow pipelines on Google Cloud Platform. Often dealing with Google Bigtables.
           - Support team's A/B tests for finding the best approach to match content creators to music and podcast lovers,
           and making sure user experience is not tanked because of receiving irrelevant promotions.
+        tags:
+          - title: 'Technologies used:'
+            subtags:
+              - name: Java/Python
+              - name: Kubernetes/GCP
+              - name: Bigtable/GS/Dataflow/Bigquery
+              - name: Keras/Tensorflow
           
       - title: Senior Software Engineer
         location: Tradeshift Copenhagen
@@ -64,10 +71,8 @@ experiences:
         tags:
           - title: 'Technologies used:'
             subtags:
-              - name: Java/Rust/Kotlin/Python
-              - name: Kubernetes
-              - name: GCP/AWS
-              - name: Bigtable/GS/S3/DynamoDB
+              - name: Java/Kotlin/Python/Rust
+              - name: Kubernetes/AWS
               - name: Keras/Tensorflow
               - name: LogisticRegression/CNN
 
