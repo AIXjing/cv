@@ -2,35 +2,184 @@
 # Be aware that even a small syntax error here can lead to failures in output. 
 #
 
-sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Jing Ai
-    tagline: Junior Data Analytist/Postdoctoral Researcher
-    # avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+site-title: Jing Ai's CV
 
-    # Sidebar links
-    email: ai.jing.cph@gmail.com
-    phone: +45 91800203
-    linkedin: https://www.linkedin.com/in/janeai65/
-    Tableau: https://public.tableau.com/profile/jing.ai#!/
+name: Jing Ai
+title: Junior Data Analytist/Postdoctoral Researcher
+email: ai.jing.cph@gmail.com
+phone: +45 91 80 02 03
+address: Copenhagen, Denmark
 
-    languages:
-      - idiom: Chinese
-        level: Native
+# comment a session out if you want to hide a specific info
+linkedin:
+  name: linkedin.com/in/janeai65
+  url: https://www.linkedin.com/in/janeai65/
+github:
+  name: github.com/aixjing
+  url: http://github.com/aixjing
+website:
+  name: aixjing.github.io/notes
+  url: http://aixjing.github.io/notes
 
-      - idiom: English
-        level: Profiency
+career-summary: |
+  Fuyang is a software engineer with solid mathematics and physics background.
+  He is self-driven, result-oriented, and enjoys building stuff. He is good at finding the balance between
+  a project's velocity, complexity and quality.
+  He wishes to see those new
+  technology being applied in a variety of industries. He would be happy if he can
+  use his time and energy in services or products that will make the world a better place.
+  Since 2018 he fell in love with the Rust programming language 
+  and also started learning about distributed NewSQL systems like TiDB/TiKV.
 
-      - idiom: Danish
-        level: Beginner 
+    - 5+ years in software development in music app industry and ecommerce industry.
+    - 3+ years in finite element simulation in automobile industry
 
-# career-profile:
-#     title: Career Profile
-#     summary: |
-#       Ph.D stuendt at KU ...
+experiences:
+  - section: Work Experience
+    contents:
+      - title: Software Engineer
+        location: Spotify - a music streaming and media services provider 
+        subtitle: 2019-05 - Present, Stockholm Sweden
+        summary: | 
+          - Develop backend systems used for configuring and feeding promotions of new albums or podcast shows to Spotify users.
+          - Deploy ML models that can target promotions to a certain group of users, so to increase the promotion click through rate.
+          - Develope and migrate dataflow pipelines on Google Cloud Platform. Often dealing with Google Bigtables.
+          - Support team's A/B tests for finding the best approach to match content creators to music and podcast lovers,
+          and making sure user experience is not tanked because of receiving irrelevant promotions.
+        tags:
+          - title: 'Technologies used:'
+            subtags:
+              - name: Java/Python
+              - name: Kubernetes/GCP
+              - name: Bigtable/GS/Dataflow/Bigquery
+              - name: Keras/Tensorflow
+          
+      - title: Senior Software Engineer
+        location: Tradeshift - a cloud based business network and platform
+        subtitle: 2015-12 - 2019-04, Copenhagen Denmark
+        summary: | 
+            - Build and maintain machine learning services (invoice entity classification, business entity matching, product-classification, smart-suggestion)
+            - Build Data pipeline on AWS for machine learning components across multiple environments
+            - Build micro-services (REST APIs) to allow ML components interacting with other system components
+            - Fix bugs and implement feature requests among different components. Touch on some front-end UI code/Javascript from time to time
+        subcontents: 
+          - title: 'Achievements:'
+            summary: |
+                - Shipped the first several services onto our Kubernetes environment
+                  and then became a mentor to pass on the know-hows to others
+                - Developed and deployed the first deep neural net model at Tradeshift for 
+                  the product-classification service
+        tags:
+          - title: 'Technologies used:'
+            subtags:
+              - name: Java/Kotlin/Python/Rust
+              - name: Kubernetes/AWS
+              - name: Keras/Tensorflow
+              - name: LogisticRegression/CNN
+
+      - title: Simulation Engineer
+        location: Dinex Group - a global manufacturer of emission control products
+        subtitle: 2012-12 - 2015-11, Middelfart Denmark
+        summary: | 
+          Developed FEM simulation models and performed acoustic and CFD analysis 
+          on heavy duty diesel engine exhaustion system. 
+          Also helped with data analysis on the results of prototype testing.
+          Our customers include big automobile OEMs such as Ford, Volvo and CAT.
+        tags:
+          - title: 'Technologies used:'
+            subtags:
+              - name: Matlab
+              - name: COMSOL
+              - name: SolidWorks
+
+      - title: Software Engineer
+        location: "Perficient. Inc (NASDAQ: PRFT)"
+        subtitle: 2012-12 - 2015-11, Hangzhou China
+        summary: | 
+          Business solution development with IBM Websphere Portal Server, 
+          mainly in Java and touched on a few projects with C#.
+
+  # - section: Education
+  #   contents:
+  #     - title: MSc in Applied Physics
+  #       location: Southern Denmark University
+  #       subtitle: 2010-09 - 2012-07
+  #       summary: | 
+  #         Major in computational physics and numerical analysis
+
+  #           - Mechanical vibration
+
+  - section: Publications
+    contents:
+      - title: Transfer Matrix Coupling Approach for Predicting the Acoustic Performance of a Complete Aftertreatment Exhaust System
+        subtitle: SAE paper [2014-01-2056]
+        author:
+
+
+projects:
+  title: Increasing Real Estate Management Profits 
+  intro: >
+    The capstone project in the specilization course "Excel to MySQL: Analytic Techniques for Business Specialization" by Duke University (Coursera)
+  details: 
+    Five-minute presentations with recommendations on whether the company should convert the long-term rental properties into short-term rentals based on the data analysis results. 
+
+  title: How does a bike-share navigate speedy success?
+  intro: >
+    The capstone project in the specilization course "Google Data Analytics Professional Certificate" by Google (Coursera)
+  details: 
+    A Dashboard showing how the annual members and casual users use the shared bikes differently by analyzing historical trip data. 
+
+  assignments:
+    - title: Velocity
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+courses:
+  title: Online Courses via Coursera and Edx
+  contents:
+    - title: Neural Networks and Deep Learning (5 courses)
+      subtitle: 2017 by Andrew Ng
+      location: Deeplearning.ai
+      summary: | 
+    - title:  Neural Networks for Machine Learning  
+      subtitle: 2017 by Geoffrey Hinton
+      location: University of Toronto
+      summary: | 
+    - title: Machine Learning Specialization (5 courses) 
+      subtitle: 2016
+      location: University of Washington
+      summary: | 
+    - title: Managing Big Data with MySQL 
+      subtitle: 2016
+      location: Duke University
+      summary: | 
+    - title: CS50 - Introduction to Computer Science
+      subtitle: 2015
+      location: Harvard
+      summary: | 
+
+
+skills:
+  - section: Data analysis
+    subskills:
+      - name: SQL (MySQL, BigQuery, SQLite)
+        width: 90%
+      - name: Python/R
+        width: 75%
+      - name: Spreadsheet
+        width: 70%
+      - name: Javascript/CSS/html
+        width: 65%
+      - name: Tableau
+        width: 70% 
+
+
+other-skills:
+  - name: DevOps
+  - name: CICD
+  - name: Git
+      
 
 Education:
     - degree: Environmental Chemistry, PhD
@@ -49,88 +198,32 @@ Education:
         Study on removal of trichloroethylene
         over clay-supported palladium catalysts
 
-# experiences:
-#     - role: Lead Developer
-#       time: 2015 - Present
-#       company: Startup Hubs, San Francisco
-#       details: |
-#         Describe your role here lorem ipsum dolor sit amet, consectetuer
-#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-#         Cum sociis natoque penatibus et magnis dis parturient montes,
-#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
-#         pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-#         enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-#         error sit voluptatem accusantium doloremque laudantium, totam rem
-#         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-#         architecto beatae vitae dicta sunt explicabo.
 
-#           - Bullet point
-#           - Bullet point 
+certifications:
+  - name: AWS Solution Architect Associate 2018
+    desc: 
+# awards:
+#   - name: AWS Solution Architect Associate 2018
+#     desc: 
 
+languages:
+  - name: English
+    level: Professional
 
-projects:
-    title: Increasing Real Estate Management Profits 
-    intro: >
-      The capstone project in the specilization course "Excel to MySQL: Analytic Techniques for Business Specialization" by Duke University (Coursera)
-    details: 
-      Five-minute presentations with recommendations on whether the company should convert the long-term rental properties into short-term rentals based on the data analysis results. 
+  - name: Chinese
+    level: Native
 
-    title: How does a bike-share navigate speedy success?
-    intro: >
-      The capstone project in the specilization course "Google Data Analytics Professional Certificate" by Google (Coursera)
-    details: 
-      A Dashboard showing how the annual members and casual users use the shared bikes differently by analyzing historical trip data. 
+  - name: Danish
+    level: Beginner
+    
+interests:
+  - name: Swimming
+    link: https://www.facebook.com/liufu.ty
+
+  - name: Cooking
+    link: https://www.facebook.com/liufu.ty
+    
+  - name: Video making
+    link: https://www.youtube.com/watch?v=vbL1STxP0vQ
 
 
-
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; 
-
-    skills: 
-      - name: Data cleaning and processing
-
-      - name: Statistical analysis
-
-      - name: Data analysis
-
-      - name: Data visualzation
-
-    toolset:
-      - name: Spreadsheet, 
-        #level: 98%
-      
-      - name: SQL (MySQL, BigQuery, SQLite)
-
-      - name: Python & R statistical programming
-
-      - name: Tableau
-      
-      - name: Javascript, css, html
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

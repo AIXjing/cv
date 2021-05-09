@@ -1,14 +1,16 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: My Resume
-url: 'http://webjeda.com'
+title: Fuyang's CV
+url: 'http://liufuyang.github.io'
 baseurl: '/cv' #change it according to your repository name
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: blue # blue turquoise green berry orange ceramic
+# Switch between pillar-1 and pillar-6 to use different colors
+# more details see here https://github.com/xriley/pillar-theme
+theme_number: pillar-7
 
 # Tracker
-analytics: UA-83979019-1
+# analytics: UA-83979019-1
 
 # Sass/SCSS
 sass:

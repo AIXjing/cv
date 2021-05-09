@@ -1,0 +1,65 @@
+{% assign data = site.data.data %}
+
+<!--//courses-section-->
+<section class="resume-section experience-section mb-5">
+    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
+        {{ data.courses.title }}</h2>
+
+    {% for content in data.courses.contents %}
+    <div class="resume-section-content">
+        <div class="resume-timeline position-relative">
+            {% if forloop.last == false %}
+            <article class="resume-timeline-item position-relative pb-1">
+                {% else %}
+                <!-- last element is with shorter bar looking, so remove pb-4 -->
+                <article class="resume-timeline-item position-relative">
+                    {% endif %}
+
+
+                    <div class="resume-timeline-item-header mb-2">
+                        <div class="d-flex flex-column flex-md-row">
+                            <h3 class="resume-position-title font-weight-bold mb-1">
+                                {{ content.title }}</h3>
+                            <div class="resume-company-name ml-auto">
+                                {{ content.location }}{{ content.author }}</div>
+                        </div>
+                        <!--//row-->
+                        <div class="resume-position-time">
+                            {{ content.subtitle }}
+                        </div>
+                    </div>
+                    <!--//resume-timeline-item-header-->
+                    <div class="resume-timeline-item-desc">
+                        <p>
+                            {{ content.summary | markdownify }}
+                        </p>
+
+                        {% for subcontent in content.subcontents %}
+                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">
+                            {{ subcontent.title }}</h4>
+                        {{ subcontent.summary | markdownify }}
+                        {% endfor %}
+
+                        {% for tag in content.tags %}
+                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">
+                            {{ tag.title }}</h4>
+                        <ul class="list-inline">
+                            {% for subtag in tag.subtags %}
+                            <li class="list-inline-item"><span class="badge badge-primary badge-pill">
+                                    {{ subtag.name }}</span></li>
+                            {% endfor %}
+                        </ul>
+                        {% endfor %}
+
+                    </div>
+                    <!--//resume-timeline-item-desc-->
+
+                </article>
+                <!--//resume-timeline-item-->
+
+        </div>
+        {% endfor %}
+        <!--//resume-timeline-->
+    </div>
+</section>
+<!--//courses-section-->
