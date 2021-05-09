@@ -23,98 +23,80 @@ website:
   url: http://aixjing.github.io/notes
 
 career-summary: |
-  Fuyang is a software engineer with solid mathematics and physics background.
-  He is self-driven, result-oriented, and enjoys building stuff. He is good at finding the balance between
-  a project's velocity, complexity and quality.
-  He wishes to see those new
-  technology being applied in a variety of industries. He would be happy if he can
-  use his time and energy in services or products that will make the world a better place.
-  Since 2018 he fell in love with the Rust programming language 
-  and also started learning about distributed NewSQL systems like TiDB/TiKV.
+  Jing is an junior data analytist with environmental chemistry background.
+  She is self-driven, result-oriented, and passionate about using data to solve the practical problems. 
+  She is a good collaborator and communicator, and also very modest and eager to learn.
+  Working in academia for 5+ years let her realize her real passion falls in data-related tasks. Since then, she has started to develop her data analytics skills by taking online courses.
+  She is now able to use SQL, R, Python, and Tableau for data cleaning, processing, analysis, and visualization, but still eager to learn about statistics, predictive models, and machine linearning. She dreams to be a data scientist in the future.
 
-    - 5+ years in software development in music app industry and ecommerce industry.
-    - 3+ years in finite element simulation in automobile industry
+ # - Data analytics skills
+# - 5+ years in working in R&D of carbonaceous materials in academia
+
 
 experiences:
   - section: Work Experience
     contents:
-      - title: Software Engineer
-        location: Spotify - a music streaming and media services provider 
-        subtitle: 2019-05 - Present, Stockholm Sweden
+      - title: Postdoctoral Researcher
+        location: University of Copenhagen  
+        subtitle: 2020-01 - Present, Copenhagen Denmark
         summary: | 
-          - Develop backend systems used for configuring and feeding promotions of new albums or podcast shows to Spotify users.
-          - Deploy ML models that can target promotions to a certain group of users, so to increase the promotion click through rate.
-          - Develope and migrate dataflow pipelines on Google Cloud Platform. Often dealing with Google Bigtables.
-          - Support team's A/B tests for finding the best approach to match content creators to music and podcast lovers,
-          and making sure user experience is not tanked because of receiving irrelevant promotions.
+          - Drive R&D project for innovative iron-carbon materials
+          - Optimize production and performance of carbon materials
+          - Analyze the physicochemical and electrochemical properties of materials by PCA
+          - Process data and interpret the results by presentation and scientific papers
         tags:
-          - title: 'Technologies used:'
+          - title: 'Experience'
             subtags:
-              - name: Java/Python
-              - name: Kubernetes/GCP
-              - name: Bigtable/GS/Dataflow/Bigquery
-              - name: Keras/Tensorflow
+              - name: Spreadsheet/Python
+              - name: Data visualization/interpretation
+              - name: Management/Communication
+              - name: Collaboration
           
-      - title: Senior Software Engineer
-        location: Tradeshift - a cloud based business network and platform
-        subtitle: 2015-12 - 2019-04, Copenhagen Denmark
+      - title: Ph.D. Fellow
+        location: University of Copenhagen 
+        subtitle: 2016-10 - 2019-12, Copenhagen Denmark
         summary: | 
-            - Build and maintain machine learning services (invoice entity classification, business entity matching, product-classification, smart-suggestion)
-            - Build Data pipeline on AWS for machine learning components across multiple environments
-            - Build micro-services (REST APIs) to allow ML components interacting with other system components
-            - Fix bugs and implement feature requests among different components. Touch on some front-end UI code/Javascript from time to time
+            - Studied on mechanisms of catalysis by carbonaceous materials
+            - Investigated on electron-transfer functionality of biochars
+            - Tested and improved the reactivity of the iron-carbon materials
+            - Review and organize the biochar properties from all the publications
         subcontents: 
           - title: 'Achievements:'
             summary: |
-                - Shipped the first several services onto our Kubernetes environment
-                  and then became a mentor to pass on the know-hows to others
-                - Developed and deployed the first deep neural net model at Tradeshift for 
-                  the product-classification service
+                - A patent on Composite comprising green rust and carbon for environmental remediation
+                - Three publications on journals with high impact factors
         tags:
-          - title: 'Technologies used:'
+          - title: 'Experience'
             subtags:
-              - name: Java/Kotlin/Python/Rust
-              - name: Kubernetes/AWS
-              - name: Keras/Tensorflow
-              - name: LogisticRegression/CNN
+              - name: Spreadsheet/OrininPro
+              - name: Python
+              - name: Eletrochemistry/Chemistry
+              - name: Solid characterization
 
-      - title: Simulation Engineer
-        location: Dinex Group - a global manufacturer of emission control products
-        subtitle: 2012-12 - 2015-11, Middelfart Denmark
-        summary: | 
-          Developed FEM simulation models and performed acoustic and CFD analysis 
-          on heavy duty diesel engine exhaustion system. 
-          Also helped with data analysis on the results of prototype testing.
-          Our customers include big automobile OEMs such as Ford, Volvo and CAT.
-        tags:
-          - title: 'Technologies used:'
-            subtags:
-              - name: Matlab
-              - name: COMSOL
-              - name: SolidWorks
+      - title: Teaching Assistant
+        location: University of Copenhagen 
+        subtitle: 2017-11 - 2019-01, Copenhagen Denmark
+        subcontents: 
+          - title: 'Soil and Water Pollution (Exercise):'
+            summary: |
+                - Designed and proposed the experimental exercise
+                - Supervised students in laboratory and gave support in writing
 
-      - title: Software Engineer
-        location: "Perficient. Inc (NASDAQ: PRFT)"
-        subtitle: 2012-12 - 2015-11, Hangzhou China
-        summary: | 
-          Business solution development with IBM Websphere Portal Server, 
-          mainly in Java and touched on a few projects with C#.
 
-  # - section: Education
+contents:
+  - title: MSc in Applied Physics
+    location: Southern Denmark University
+    subtitle: 2010-09 - 2012-07
+    summary: | 
+      Major in computational physics and numerical analysis
+
+      - Mechanical vibration
+
+  # - section: Publications
   #   contents:
-  #     - title: MSc in Applied Physics
-  #       location: Southern Denmark University
-  #       subtitle: 2010-09 - 2012-07
-  #       summary: | 
-  #         Major in computational physics and numerical analysis
-
-  #           - Mechanical vibration
-
-  - section: Publications
-    contents:
-      - title: Transfer Matrix Coupling Approach for Predicting the Acoustic Performance of a Complete Aftertreatment Exhaust System
-        subtitle: SAE paper [2014-01-2056]
-        author:
+  #     - title: Transfer Matrix Coupling Approach for Predicting the Acoustic Performance of a Complete Aftertreatment Exhaust System
+  #       subtitle: SAE paper [2014-01-2056]
+  #       author:
 
 
 projects:
@@ -179,24 +161,16 @@ other-skills:
   - name: DevOps
   - name: CICD
   - name: Git
-      
 
-Education:
-    - degree: Environmental Chemistry, PhD
-      university: University of Copenhagen, Denmark
-      time: 2016-10 - 2019-12
-      details: |
-        Biochar facilitated dechlorination of chlorinated ethylenes
-          - Collected and processed scientific data and interpreted the results 
-          - Investigated on electron-transfer functionality of biochars
-          - Tested and improved the reactivity of the iron-carbon materials
 
-    - degree: Environmental Chemistry, MSc
-      university: Nanjing University, China
-      time: 2013-09 - 2016-06
-      details: |
-        Study on removal of trichloroethylene
-        over clay-supported palladium catalysts
+educations:
+  - degree: MSc in environmental chemistry
+    org: NanJing University, China
+    time: 2013 - 2016
+
+  - degree: BSc in environmental science
+    org: China University of Mining and Technology, China
+    time: 2009 - 2013    
 
 
 certifications:

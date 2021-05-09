@@ -1,8 +1,8 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: Fuyang's CV
-url: 'http://liufuyang.github.io'
+title: Jing's CV
+url: 'http://aixjing.github.io'
 baseurl: '/cv' #change it according to your repository name
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 # Switch between pillar-1 and pillar-6 to use different colors
