@@ -24,10 +24,10 @@ website:
 
 career-summary: |
   Jing is an junior data analyst with an environmental chemistry background.
-  She is self-driven, result-oriented, and passionate about using data to solve the practical problems. 
+  She is self-driven, result-oriented, and enthusiastic about using data to solve the practical problems. 
   She is a good collaborator and communicator, and also very humble and eager to learn.
   Working in academia for 5+ years let her realize her real passion falls in data-related tasks. Since then, she has started to develop her data analytics skills by taking online courses.
-  She is currently comfortable to use SQL, R, Python, and Tableau for data cleaning, processing, analysis, and visualization, but still eager to learn about statistics, predictive models, and machine linearning. She dreams to be a data scientist in the future.
+  She currently and comfortablly work with SQL, R, Python, and Tableau for data cleaning, processing, analysis, and visualization, and still eager to learn about statistics, predictive models, and machine linearning. She dreams to be a data scientist in the future.
 
  # - Data analytics skills
 # - 5+ years in working in R&D of carbonaceous materials in academia
@@ -42,14 +42,14 @@ experiences:
         summary: | 
           - Drive R&D project for innovative iron-carbon materials
           - Optimize production and performance of carbon materials
-          - Analyze the physicochemical and electrochemical properties of materials
-          - Process data and interpret the results by presentation and scientific papers
+          - Measure the physicochemical and electrochemical properties of materials
+          - Analyze data and interpret the results by presentation and scientific papers
         tags:
           - title: 'Experience'
             subtags:
               - name: Spreadsheet/Python
+              - name: Data gathering/organizing 
               - name: Data visualization/interpretation
-              - name: Data gathering/organization
               # - name: Management/Communication
           
       - title: Ph.D. Fellow
@@ -59,12 +59,13 @@ experiences:
             - Studied on mechanisms of catalysis by carbonaceous materials
             - Investigated on electron-transfer functionality of biochars
             - Tested and improved the reactivity of the iron-carbon materials
-            - Review and organize the biochar properties from all the publications
+            - Reviewed and organized the biochar properties from all the publications in documents
         subcontents: 
           - title: 'Achievements:'
             summary: |
-                - A patent on Composite comprising green rust and carbon for environmental remediation
+                - One patent: Composite comprising green rust and carbon for environmental remediation
                 - Three publications on journals with high impact factors
+
         tags:
           - title: 'Experience'
             subtags:
@@ -80,7 +81,7 @@ experiences:
           - title: 'Soil and Water Pollution (Exercise):'
             summary: |
                 - Designed and proposed the experimental exercise
-                - Supervised students in laboratory and gave support in writing
+                - Supervised students work in laboratory and assisted in writing
 
 
 # contents:
@@ -121,7 +122,7 @@ courses:
   title: Online Courses via Coursera and Edx
   contents:
     - title: Google Data Analytics Professional Certificate
-      subtitle: 2021
+      subtitle: 2021 by Google
       location: Google
       summary: | 
 
@@ -150,7 +151,7 @@ skills:
     subskills:
       - name: Spreadsheet
         width: 90%
-      - name: SQL (MySQL, BigQuery, SQLite)
+      - name: SQL
         width: 75%
       - name: Tableau
         width: 70%
