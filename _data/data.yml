@@ -18,9 +18,9 @@ linkedin:
 github:
   name: github.com/aixjing
   url: http://github.com/aixjing
-website:
-  name: aixjing.github.io/notes
-  url: http://aixjing.github.io/notes
+# website:
+#   name: aixjing.github.io/notes
+#   url: http://aixjing.github.io/notes
 
 career-summary: |
   Jing is an junior data analyst with an environmental chemistry background.
@@ -63,7 +63,7 @@ experiences:
         subcontents: 
           - title: 'Achievements:'
             summary: |
-                - One patent: Composite comprising green rust and carbon for environmental remediation
+                - One patent: An iron-carbon composite for environmental remediation
                 - Three publications on journals with high impact factors
 
         tags:
