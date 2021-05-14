@@ -37,41 +37,29 @@
             <header class="resume-header pt-4 pt-md-0">
                 <div class="media flex-column flex-md-row">
                     <!--  <img class="mr-3 img-fluid picture mx-auto" src="assets/images/profile.jpg" alt=""> -->
-                    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-4">
-                        <div class="primary-info">
+                    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
+                        <div class="primary-info pl-4">
                             <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">{{ data.name }}</h1>
                             <div class="title mb-2">{{ data.title }}
                             </div>
-                            <div class="container p-0">
-                                <div class="row">
-                                    <div class="col-sm">
-                                        <ul class="list-unstyled">
-                                            <li class="mb-2"><a href="#">
-                                                    <i class="far fa-envelope fa-fw mr-2"
-                                                        data-fa-transform="grow-3"></i>
-                                                    {{ data.email }}</a>
-                                            </li>
-                                            <li class="mb-2"><a href="#">
-                                                    <i class="fas fa-map-marker-alt fa-fw mr-2"
-                                                        data-fa-transform="grow-3"></i>
-                                                    {{ data.address }}</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm">
-                                        <ul class="list-unstyled">
-                                            <li class="mb-2"><a href="#">
-                                                    <i class="fas fa-mobile-alt fa-fw mr-2"
-                                                        data-fa-transform="grow-6"></i>
-                                                    {{ data.phone }}</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="#">
+                                        <i class="far fa-envelope fa-fw mr-2"
+                                            data-fa-transform="grow-3"></i>
+                                        {{ data.email }}</a>
+                                </li>
+                                <li class="mb-2"><a href="#">
+                                        <i class="fas fa-map-marker-alt fa-fw mr-2"
+                                            data-fa-transform="grow-3"></i>
+                                        {{ data.address }}</a></li>
+                                <li class="mb-2"><a href="#">
+                                    <i class="fas fa-mobile-alt fa-fw mr-2"
+                                       data-fa-transform="grow-6"></i>
+                                    {{ data.phone }}</a></li>
+                            </ul>
                         </div>
                         <!--//primary-info-->
-                        <div class="secondary-info ml-md-auto mt-4">
+                        <div class="secondary-info ml-md-auto mt-4 pr-4">
                             <ul class="resume-social list-unstyled">
                                 {% if data.linkedin %}
                                 <li class="mb-3"><a href="{{ data.linkedin.url }}" target="_blank"><span
