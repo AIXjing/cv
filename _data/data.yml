@@ -6,10 +6,10 @@
 site-title: Jing Ai's CV
 
 name: Jing Ai
-title: Junior Data Analytist/Postdoctoral Researcher
+title: Postdoctoral Researcher/Junior Data Analyst
 email: ai.jing.cph@gmail.com
 phone: +45 91 80 02 03
-address: Copenhagen, Denmark
+address: Copenhagen, Denmark (Stockholm, Sweden)
 
 # comment a session out if you want to hide a specific info
 linkedin:
@@ -23,12 +23,11 @@ github:
 #   url: http://aixjing.github.io/notes
 
 career-summary: |
-  Jing is an junior data analyst with an environmental chemistry background.
-  She is self-driven, result-oriented, and enthusiastic about using data to solve the practical problems. 
-  She is a good collaborator and communicator, and also very humble and eager to learn.
-  Working in academia for 5+ years let her realize her real passion falls in data-related tasks. Since then, she has started to develop her data analytics skills by taking online courses.
-  She currently and comfortablly work with SQL, R, Python, and Tableau for data cleaning, processing, analysis, and visualization, and still eager to learn about statistics, predictive models, and machine linearning. She dreams to be a data scientist in the future.
-
+  A young researcher with 5+ years of experience with R&D projects for an iron-carbon composite.
+  Has strong chemistry background, particularly interested in electrochemical properties of carbon materials. 
+  Also keen to work with large datasets to solve the practical problems, and able to process and visualize data with different tools.
+  She is a good collaborator and communicator with a strong sense of responsibility, and also very humble and eager to learn.
+  
  # - Data analytics skills
 # - 5+ years in working in R&D of carbonaceous materials in academia
 
@@ -43,23 +42,22 @@ experiences:
           - Drive R&D project for innovative iron-carbon materials
           - Optimize production and performance of carbon materials
           - Measure the physicochemical and electrochemical properties of materials
-          - Analyze data and interpret the results by presentation and scientific papers
+          - Analyze data and share the scientific results to stakeholders
         tags:
           - title: 'Experience'
             subtags:
               - name: Spreadsheet/Python
-              - name: Data gathering/organizing 
-              - name: Data visualization/interpretation
-              # - name: Management/Communication
+              - name: Data organization
+              - name: Data visualization
+              - name: Collaboration
           
       - title: Ph.D. Fellow
         location: University of Copenhagen 
         subtitle: 2016-10 - 2019-12, Copenhagen Denmark
         summary: | 
-            - Studied on mechanisms of catalysis by carbonaceous materials
+            - Studied on mechanisms of catalysis with carbonaceous materials
             - Investigated on electron-transfer functionality of biochars
             - Tested and improved the reactivity of the iron-carbon materials
-            - Reviewed and organized the biochar properties from all the publications in documents
         subcontents: 
           - title: 'Achievements:'
             summary: |
@@ -81,7 +79,16 @@ experiences:
           - title: 'Soil and Water Pollution (Exercise):'
             summary: |
                 - Designed and proposed the experimental exercise
-                - Supervised students work in laboratory and assisted in writing
+                - Supervised students on laboratory work and writing
+
+        tags:
+          - title: 'Experience'
+            subtags:
+              - name: Communication
+              - name: Organization
+              - name: Coordination
+                
+
 
 
 # contents:
@@ -123,7 +130,7 @@ courses:
   contents:
     - title: Google Data Analytics Professional Certificate
       subtitle: 2021 by Google
-      location: Google
+      location: Google (Coursera)
       summary: | 
 
     - title:  'Excel to MySQL: Analytic Techniques for Business Specialization'
@@ -136,10 +143,10 @@ courses:
       location: University of Michigan
       summary: | 
 
-    - title: CS50's Introduction to Computer Science
-      subtitle: 2020 by David J. Malan
-      location: Harvard University
-      summary: | 
+    #- title: CS50's Introduction to Computer Science
+    #  subtitle: 2020 by David J. Malan
+    #  location: Harvard University
+    #  summary: | 
     # - title: CS50 - Introduction to Computer Science
     #   subtitle: 2015
     #   location: Harvard
@@ -163,8 +170,8 @@ skills:
 
 
 other-skills:
-  - name: Javascript/css
-  - name: Colab
+  - name: Javascript
+  - name: Jupyter
   - name: Git
 
 
