@@ -6,7 +6,7 @@
 site-title: Jing Ai's CV
 
 name: Jing Ai
-title: Postdoctoral Researcher/Junior Data Analyst
+title: Junior Data Analyst/Postdoctoral Researcher
 email: ai.jing.cph@gmail.com
 phone: +45 91 80 02 03
 address: Copenhagen, Denmark (Stockholm, Sweden)
@@ -23,10 +23,11 @@ github:
 #   url: http://aixjing.github.io/notes
 
 career-summary: |
-  A young researcher with 5+ years of experience with R&D projects for an iron-carbon composite.
-  Has strong chemistry background, particularly interested in electrochemical properties of carbon materials. 
-  Also keen to work with large datasets to solve the practical problems, and able to process and visualize data with different tools.
-  She is a good collaborator and communicator with a strong sense of responsibility, and also very humble and eager to learn.
+  Jing is an junior data analyst with an environmental chemistry background. She is self-driven, result-oriented, and enthusiastic about
+  using data to solve the practical problems. 
+  She is able to use SQL, R, Python, and Tableau for data cleaning, processing, analysis, and visualization, 
+  and still eager to learn about statistics, predictive models, machine linearning and a lot of new things. 
+  She is open to any opportunities for her first experience as a data analyst. 
   
  # - Data analytics skills
 # - 5+ years in working in R&D of carbonaceous materials in academia
@@ -69,8 +70,8 @@ experiences:
             subtags:
               - name: Spreadsheet/OrininPro
               - name: Python
-              - name: Eletrochemistry/Chemistry
-              - name: Solid characterization
+              - name: Analytical thinking
+              #- name: Solid characterization
 
       - title: Teaching Assistant
         location: University of Copenhagen 
